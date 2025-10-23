@@ -5,7 +5,7 @@ Copyright (c) 2024–2025 Zhengrong Guo.
 ---
 
 Graphene-Topology is a C++ library for generating graphene-derived nanostructures, such as caped carbon nanotubes, with future support planned for fullerenes, nanotube heterojunctions and nanotube–graphene heterojunctions. This library simplifies the modeling of complex structures that have traditionally been difficult to construct, providing a valuable tool for researchers in the field. The underlying methodology is based on the topological theory of graphene-based structures, as detailed in the paper:  
-**"The Underlying Topology from Carbon Cap to the Chirality of Carbon Nanotubes"**.
+**A Topological Sum Rule for the Chirality of Carbon Nanotubes**.
 
 ## Distribution Contents
 
@@ -76,7 +76,7 @@ A carbon cap for a carbon nanotube is a structural motif formed by six pentagons
 This finding allows for the generation of a carbon nanotube with any given chiral indices. Furthermore, all possible caps for a specific nanotube can be enumerated by identifying combinations of numbers with a fixed sum.
 
 <div> 
-<img src="./images/Figure0.png" width="600"> 
+<img src="images/Figure0.png" width="600"> 
 
 Figure 0. Carbon cap formation process. Left top: the six vector spaces to define each pentagon. Bottom: four examples of carbon cap formation. Right Top: the resulting carbon nanotube chiral indices.
 </div>
@@ -97,9 +97,9 @@ See the ./examples/ directory for more examples.
 The generated nanotube is oriented along the z-axis, with the closed end facing the positive z-direction and the open edge positioned at z=0, as illustrated below:
 
 <div> 
-<img src="./images/Figure1a.png" width="210"> 
-<img src="./images/Figure1b.png" width="210"> 
-<img src="./images/Figure1c.png" width="210"> 
+<img src="images/Figure1a.png" width="210"> 
+<img src="images/Figure1b.png" width="210"> 
+<img src="images/Figure1c.png" width="210"> 
 
 Figure 1. Generated carbon nanotube's orientation. CNT Chiral indices are (9,0), (5,5), (9,3), respectively.
 </div>
