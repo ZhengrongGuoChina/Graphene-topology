@@ -25,8 +25,8 @@ struct locate final {
       : atoms{v},
         bond{1.42},
         next_nearest{1.42 * std::sqrt(3.0)},
-        bond_damp{0.183},
-        next_nearest_damp{0.183 / std::sqrt(3.0)},
+        bond_damp{0.291},
+        next_nearest_damp{0.291 / std::sqrt(3.0)},
         out_plane_damp{0.12} {}
   locate(const locate&) = delete;
   locate& operator=(const locate&) = delete;
@@ -318,5 +318,6 @@ inline void locate<W>::set_edge_to_zero() const {
 }
 
 }  // namespace grapology
+
 
 #endif
