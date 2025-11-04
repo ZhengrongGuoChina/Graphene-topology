@@ -107,7 +107,7 @@ Figure 1. Generated carbon nanotube's orientation. CNT Chiral indices are (9,0),
 ## Citation
 If you use this library in your research, please cite:
 
-"Toward a Deterministic Nucleation Theory for Chirality-Controlled Nanotube Synthesis", Zhengrong Guo, ... (2025, In submission)
+"Toward a Deterministic Nucleation Theory for Chirality-Controlled Nanotube Synthesis", Zhengrong Guo, arXiv:2510.25425 [cond-mat.mes-hall]
 
 ## Acknowledgments
 
