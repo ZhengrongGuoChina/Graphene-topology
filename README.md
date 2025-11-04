@@ -5,7 +5,7 @@ Copyright (c) 2024–2025 Zhengrong Guo.
 ---
 
 Graphene-Topology is a C++ library for generating graphene-derived nanostructures, such as caped carbon nanotubes, with future support planned for fullerenes, nanotube heterojunctions and nanotube–graphene heterojunctions. This library simplifies the modeling of complex structures that have traditionally been difficult to construct, providing a valuable tool for researchers in the field. The underlying methodology is based on the topological theory of graphene-based structures, as detailed in the paper:  
-**A Topological Sum Rule for the Chirality of Carbon Nanotubes**.
+**Toward a Deterministic Nucleation Theory for Chirality-Controlled Nanotube Synthesis**.
 
 ## Distribution Contents
 
@@ -61,7 +61,7 @@ executable script -optional
 
 ## Library Description
 
-A carbon cap for a carbon nanotube is a structural motif formed by six pentagons situated amidst a variable number of hexagons. The underlying topological theory, as detailed in "A Topological Sum Rule for the Chirality of Carbon Nanotubes", posits that the cap's configuration can be completely described by the placement of its six pentagons across six sub-vector spaces {<b>*r*</b><sub>i</sub><sup>n</sup>, <b>*r*</b><sub>i</sub><sup>m</sup>}, i &rarr N{1,2,3,4,5,6} (shown below). Consequently, the chirality of the cap is defined (or described) by a corresponding set of 12 integers, denoted as <strong>\[(*n*<sub>1</sub>,*m*<sub>1</sub>),(*n*<sub>2</sub>,*m*<sub>2</sub>),(*n*<sub>3</sub>,*m*<sub>3</sub>),(*n*<sub>4</sub>,*m*<sub>4</sub>),(*n*<sub>5</sub>,*m*<sub>5</sub>),(*n*<sub>6</sub>,*m*<sub>6</sub>)\]</strong>. These indices directly determine the the resulting carbon nanotube chirality (<b>*n*</b>,<b>*m*</b>), where <b>*n*</b> and <b>*m*</b> are given by the sum :
+A carbon cap for a carbon nanotube is a structural motif formed by six pentagons situated amidst a variable number of hexagons. The underlying topological theory, as detailed in the paper, posits that the cap's configuration can be completely described by the placement of its six pentagons across six sub-vector spaces {<b>*r*</b><sub>i</sub><sup>n</sup>, <b>*r*</b><sub>i</sub><sup>m</sup>}, i &rarr N{1,2,3,4,5,6} (shown below). Consequently, the chirality of the cap is defined (or described) by a corresponding set of 12 integers, denoted as <strong>\[(*n*<sub>1</sub>,*m*<sub>1</sub>),(*n*<sub>2</sub>,*m*<sub>2</sub>),(*n*<sub>3</sub>,*m*<sub>3</sub>),(*n*<sub>4</sub>,*m*<sub>4</sub>),(*n*<sub>5</sub>,*m*<sub>5</sub>),(*n*<sub>6</sub>,*m*<sub>6</sub>)\]</strong>. These indices directly determine the the resulting carbon nanotube chirality (<b>*n*</b>,<b>*m*</b>), where <b>*n*</b> and <b>*m*</b> are given by the sum :
 
 <div style="font-weight: bold; font-style: italic;">
 <b>n</b> = n<sub>1</sub>+n<sub>2</sub>+n<sub>3</sub>+n<sub>4</sub>+n<sub>5</sub>+n<sub>6</sub>,
@@ -107,7 +107,7 @@ Figure 1. Generated carbon nanotube's orientation. CNT Chiral indices are (9,0),
 ## Citation
 If you use this library in your research, please cite:
 
-"A Topological Sum Rule for the Chirality of Carbon Nanotubes", Zhengrong Guo, ... (2025, In submission)
+"Toward a Deterministic Nucleation Theory for Chirality-Controlled Nanotube Synthesis", Zhengrong Guo, ... (2025, In submission)
 
 ## Acknowledgments
 
