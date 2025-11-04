@@ -76,7 +76,7 @@ A carbon cap for a carbon nanotube is a structural motif formed by six pentagons
 This finding allows for the generation of a carbon nanotube with any given chiral indices. Furthermore, all possible caps for a specific nanotube can be enumerated by identifying combinations of numbers with a fixed sum.
 
 <div> 
-<img src="[images/Figure0.png](https://github.com/ZhengrongGuoChina/Graphene-topology/blob/main/images/Figure0.png)" width="600"> 
+<img src="[[images/Figure0.png](https://github.com/ZhengrongGuoChina/Graphene-topology/blob/main/images/Figure0.png)" width="600"> 
 
 Figure 0. Carbon cap formation process. Left top: the six vector spaces to define each pentagon. Bottom: four examples of carbon cap formation. Right Top: the resulting carbon nanotube chiral indices.
 </div>
