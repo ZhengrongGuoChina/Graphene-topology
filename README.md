@@ -29,7 +29,7 @@ The Graphene-Topology package includes the following files and directories:
 **Platforms:**  
 - **Linux:** Run `make` to generate the executable directly.  
 - **macOS:** May require modifying the `Makefile` or generating a new one via CMake.  
-- **Windows:** Build by configuring the CMake project. A Qt wrapper for this library on windows is undercoding, and will be released some time soon.
+- **Windows:** A Qt wrapper for this library on windows(https://github.com/ZhengrongGuoChina/Nanotube-Nucleation).
 
 After successful compilation, the executable `grapology` will be generated.
 
